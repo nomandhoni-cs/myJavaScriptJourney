@@ -81,3 +81,7 @@ console.log(sentence.indexOf("Noman"));
 console.log(sentence.split(" "));
 //Avobe I used space to split the sentence
 
+// Below is a exaple of a float variable
+var floatNumber = 5.5;
+console.log(typeof floatNumber);
+console.log(floatNumber);
