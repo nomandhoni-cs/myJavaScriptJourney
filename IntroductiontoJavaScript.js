@@ -113,7 +113,15 @@ console.log(multiplication.toFixed(3));
 multiplication = ''+multiplication;
 //Abobe i used the ''+ multiplication to convert the number into a string
 console.log(typeof multiplication);
-console.log(multiplication + secondFloatNumber);
+console.log(multiplication * secondFloatNumber);
 //The result is 0.06.3 beacause string can't be multiplied
+multiplication = parseFloat(multiplication);
+console.log(multiplication);
+//Here I used parseFloat to convert the string number into a float
+multiplication = parseInt(multiplication);
+//In print out the result you see 0 cause the multiplication is a integer
+console.log(multiplication);
+//Here I used parseInt to convert the float number into a integer
+console.log(typeof multiplication);
 
 
