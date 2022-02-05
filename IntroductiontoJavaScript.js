@@ -85,3 +85,35 @@ console.log(sentence.split(" "));
 var floatNumber = 5.5;
 console.log(typeof floatNumber);
 console.log(floatNumber);
+
+//Make a number or float into a string
+floatNumber = toString(floatNumber);
+console.log(typeof floatNumber);
+
+//String number
+var stringNumber = "5.67";
+// Here I used parseInt to convert the string number into a integer
+var stringNumber = parseInt(stringNumber);
+console.log(typeof stringNumber);
+console.log(stringNumber);
+//Here I used parseFloat to convert the string number into a float
+var stringNumber = parseFloat(stringNumber);
+console.log(typeof stringNumber);
+console.log(stringNumber);
+
+var firstFloatNumber = 0.2;
+var secondFloatNumber = 0.3;
+var multiplication = firstFloatNumber * secondFloatNumber;
+console.log(firstFloatNumber * secondFloatNumber);
+//The result will be 0.060000000000000005
+//Here I Used the toFixed method to round the number]
+console.log(multiplication.toFixed(3));
+//Here I used the toFixed(1) take one number after the decimal point
+
+multiplication = ''+multiplication;
+//Abobe i used the ''+ multiplication to convert the number into a string
+console.log(typeof multiplication);
+console.log(multiplication + secondFloatNumber);
+//The result is 0.06.3 beacause string can't be multiplied
+
+
