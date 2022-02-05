@@ -32,3 +32,28 @@ console.log(fruits.length);
 for (var i=0; i<friendsName.length; i++){
     console.log(friendsName[i] + " Loves to eat " + fruits[i]);
 }
+
+//Bolean Variable
+var isRaining = true;
+var isSnowing = false;
+//Here I used console.log to print out the isRaining type
+console.log(typeof(isRaining));
+console.log(isRaining);
+ 
+//HomeWork
+//Number Variable 
+var priceOfBanana = 5;
+var priceOfOrange = 10;
+
+//String Variable
+var nameOfMyTutor = "Jhankar";
+var lastNameOfMyTutor = "Mahbub";
+
+//Boolean Variable
+var isMyTutorMale = true;
+var isMyTutorFemale = false;
+
+//Array Variable is Object type in JavaScript
+var myTutors = [ "Jhankar", "Mahbub", "Kabir", "Anamul"];
+var myFafouriteCars = ["BMW", "Audi", "Toyota", "Honda"];
+console.log(typeof myTutors);
