@@ -124,4 +124,122 @@ console.log(multiplication);
 //Here I used parseInt to convert the float number into a integer
 console.log(typeof multiplication);
 
+// Operators
+// Sum => + , Subtraction => - , Multiplication => * , Division => / , Modulus => % , Exponent => ** , Increment => ++ , Decrement => -- , Assignment => = , Comparison => == , Not Equal => != , Greater Than => > , Less Than => < , Greater Than or Equal => >= , Less Than or Equal => <= , Logical AND => && , Logical OR => || , Logical NOT => ! , Bitwise AND => & , Bitwise OR => | , Bitwise XOR => ^ , Bitwise NOT => ~ , Left Shift => << , Right Shift => >> , Unsigned Right Shift => >>> , Assignment Addition => += , Assignment Subtraction => -= , Assignment Multiplication => *= , Assignment Division => /= , Assignment Modulus => %= , Assignment Exponent => **= , Assignment Left Shift => <<= , Assignment Right Shift => >>= , Assignment Unsigned Right Shift => >>>= , Assignment Bitwise AND => &= , Assignment Bitwise OR => |= , Assignment Bitwise XOR => ^= , Assignment Bitwise NOT => ~= , Assignment Bitwise Left Shift => <<= , Assignment Bitwise Right Shift => >>= , Assignment Bitwise Unsigned Right Shift => >>>=
+
+// Sum Operator
+var firstNumber = 5;
+var secondNumber = 10;
+//Here I used the + operator to sum the two numbers
+var sum = firstNumber + secondNumber;
+console.log("Here the sum is " + sum);
+ // Here I used  - operator to subtract the two numbers
+var sub = secondNumber - firstNumber;
+console.log("Here the sub is " + sub);
+//Here I used the * operator to multiply the two numbers
+var multiplication = firstNumber * secondNumber;
+console.log("Here the multiplication is " + multiplication);
+//Here I used the % operator to find the remainder of the two numbers
+var modulas = firstNumber % secondNumber;
+console.log("Here the Reminder is " + modulas);
+// Here I used the  / operator to divide the two numbers
+var division = secondNumber / firstNumber;
+console.log("Here the divition is " + division);
+
+
+// Increment Operator & Decrement Operator
+firstNumber++;
+console.log("Here the firstNumber is " + firstNumber);
+//Here I used the ++ operator to increse the number
+secondNumber--;
+console.log("Here the secondNumber is " + secondNumber);
+// Here I used the -- operator to decrease the number
+
+//Also you can make it like this firstNumber = firstNumber + 1; or secondNumber = secondNumber - 1;
+
+
+deviceName = "Iphone";
+devicePrice = 1000;
+deviceQuantity = 2;
+ memo = "I want to buy " + deviceName + " for " + devicePrice + " USD and price of " + deviceQuantity + " device is " + (devicePrice * deviceQuantity) + " USD";
+console.log(memo);
+
+//As you can see avobe you can use the + operator to add the string and number
+
+
+// Class Part 9
+
+//Absolute number
+var absoluteNumber = -5;
+// Here I used the Math.abs() method to find the absolute number it will return 5
+console.log("The absolute number of " + absoluteNumber +" is " + Math.abs(absoluteNumber));
+
+
+// celing and floor value
+var number = 5.5;
+// Here I used the Math.ceil() method to find the ceiling value it will return 6
+console.log("The ceiling value of " + number +" is " + Math.ceil(number));
+// Here I used the Math.floor() method to find the floor value it will return 5
+console.log("The floor value of " + number +" is " + Math.floor(number));
+
+// Here I used the Math.round() method to find the round value it will return 6 if the number is .5 or more it will increase the number
+var result = Math.round(number);
+console.log("The round value of " + number +" is " + result);
+
+var numberTwo = 5.4999999;
+// Here Math.round() method will return 5 case .4999999 is less than .5
+var resultTwo = Math.round(numberTwo);
+console.log("The round value of " + numberTwo +" is " + resultTwo);
+
+
+//Random Number
+var randomNumber = Math.random();
+console.log(randomNumber);
+// to get a random integer numeber between 100
+var randomInteger = Math.random() * 100;
+var randomInteger = Math.round(randomInteger);
+console.log(randomInteger);
+
+// If - Else condition
+var hour = 10;
+if(hour > 9){
+    console.log( "You should go to sleep it's " + hour + " o'clock");
+}
+else{
+    console.log("After study you should go to sleep it's " + hour + " o'clock");
+}
+
+
+var jobPlaced = true;
+var savingsAmount = 110000;
+//Below i used the && operator to check if the jobPlaced is true and the savingsAmount is greater than 100000
+
+//You have to fullfill both conditions to get the result
+if(jobPlaced == true && savingsAmount > 100000){
+    console.log("You should get married");
+}
+else{
+console.log("You should get a job");
+}
+
+// || Operator you have to fulfill atlist one condition to get the result
+if(jobPlaced == true || savingsAmount > 100000){
+    console.log("You should get married");
+}
+else if (jobPlaced == true){
+    console.log("We are watching bride for you and save your money");
+}
+else{
+console.log("You should get a job");
+}
+
+
+// JavaScript Time- Clock
+var date = new Date();
+var hour = date.getHours();
+var minute = date.getMinutes();
+var sec = date.getSeconds();
+var ms = date.getMilliseconds();
+var day = date.getDay();
+console.log(date + " " + hour + ":" + minute + ":" + sec + ":" + ms + " " + day);
 
