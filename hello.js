@@ -1,3 +1,6 @@
+// In JavaScript 'var' is a keyword.
+//You can't give space in the var name as 'banana Price' correct syntax is 'bananaPrice'
+
 //Here I used the Integer Variable
 var bananaPrice = 5;
 //Here I used console.log to print out the bananaPrice 
@@ -57,3 +60,24 @@ var isMyTutorFemale = false;
 var myTutors = [ "Jhankar", "Mahbub", "Kabir", "Anamul"];
 var myFafouriteCars = ["BMW", "Audi", "Toyota", "Honda"];
 console.log(typeof myTutors);
+
+//A string Sentence
+var sentence = 'I Love my Country and my country name is Bangladesh';
+console.log(sentence);
+//Sentence in lower case
+console.log(sentence.toLowerCase());
+//Sentence in upper case
+console.log(sentence.toUpperCase());
+
+//Find the posiotion of a word in a sentence
+console.log(sentence.indexOf("and"));
+//It will return -1 if the word is not found
+console.log(sentence.indexOf("Noman"));
+//Remember This indexOf method is case sensitive
+
+//Below is the example of the split method in JavaScript
+// split method is used to split the string into an array of substrings
+//Split is used for divede the string
+console.log(sentence.split(" "));
+//Avobe I used space to split the sentence
+
