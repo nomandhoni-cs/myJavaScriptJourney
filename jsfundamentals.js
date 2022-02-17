@@ -94,3 +94,24 @@ console.log(sum)
 var sum2 = add(20,30);
 console.log(sum2)
 console.log(add(50,70))
+
+//Objects 
+var studentOneInfo = { id:121, Name : 'Noman', age:19};
+var studentTwoInfo = { id:122, Name : 'Sabbir', age:20};
+var ageOfStudentOne = studentOneInfo.age;
+console.log("Age of student one is " + ageOfStudentOne);
+//Another way to access the object
+var ageOfStudentOne = studentOneInfo["age"];
+console.log("Age of student one is " + ageOfStudentOne);
+//Another way to access the object
+var agePropName ="age";
+var ageOfStudentTwo = studentTwoInfo[agePropName];
+console.log("Age of student one is " + ageOfStudentTwo);
+console.log(studentOneInfo);
+console.log(studentTwoInfo);
+
+//Add new property to the object
+studentOneInfo.phone = "01678945678";
+studentTwoInfo.girlFriend = "Fariya";
+console.log(studentOneInfo);
+console.log(studentTwoInfo);
