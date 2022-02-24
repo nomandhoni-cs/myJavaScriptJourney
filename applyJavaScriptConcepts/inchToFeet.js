@@ -6,7 +6,7 @@ function inchToFeet(inch) {
     return feet;
 }
 console.log("Length of area " + inchToFeet(300) + " Feet");
-console.log("Leangth of Bed " + inchToFeet(27) + " Feet");
+console.log("Leangth of Bed  " + inchToFeet(27) + " Feet");
 // var inch = 156;
 // var feet = inch/12;
 // console.log(feet)
