@@ -5,7 +5,7 @@ function inchToFeet(inch) {
     feet = feet.toFixed(3);
     return feet;
 }
-console.log("Length of area " + inchToFeet(300) + " Feet");
+console.log("Length of   Sarea " + inchToFeet(300) + " Feet");
 console.log("Leangth of Bed  " + inchToFeet(27) + " Feet");
 // var inch = 156;
 // var feet = inch/12;
