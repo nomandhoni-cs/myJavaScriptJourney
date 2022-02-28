@@ -7,7 +7,7 @@ var i = 1;
         i++;
 }
 return fact;
-//If you want to get calculated value from function o
+//If you want to get calculated value from function you have to use return.
 }
 var result = factorial(4);
 console.log(result);
