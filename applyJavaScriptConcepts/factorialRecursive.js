@@ -7,13 +7,15 @@
 // 6! = (6 - 1)! * 6
 // 7! = (7 - 1)! * 7
 // n! = (n - 1)! * n
-function factorial(n) {
+function fact(n) {
     if(n == 0){
         return 1;
+    //By this return I can throw out the value outside of loop
     }
     else{
-        return n * factorial(n-1);
+        return n * fact(n-1);
+            //By this return I can throw out the value outside of loop
     }
 }
-var result = factorial(6);
+var result = fact(6);
 console.log(result);

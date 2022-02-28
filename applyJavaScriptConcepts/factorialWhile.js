@@ -1,11 +1,13 @@
 function factorial(input) {
-    fact = 1;
+var fact = 1;
 var i = 1;
-while (i <= input) {
-    fact = fact * i;
-    i++;
+//I must take initial value of i is 1 because 0!=1 
+    while (i <= input) {
+        fact = fact * i;
+        i++;
 }
 return fact;
+//If you want to get calculated value from function o
 }
-var result = factorial(0);
+var result = factorial(4);
 console.log(result);
