@@ -1,4 +1,5 @@
 //In this code below I explained 3 type of swap in JavaScript
+//Swap value of variable.
 
 //First type of Swap
 var a = 7;
