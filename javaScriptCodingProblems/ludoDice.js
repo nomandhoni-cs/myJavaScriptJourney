@@ -6,6 +6,7 @@ function ludoDice(n){
 }
 var result = ludoDice(6);
 console.log(result);
+console.log("Checking")
 
 
 
