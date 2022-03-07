@@ -243,3 +243,5 @@ var ms = date.getMilliseconds();
 var day = date.getDay();
 console.log(date + " " + hour + ":" + minute + ":" + sec + ":" + ms + " " + day);
 
+bananaPrice = 10;
+console.log(bananaPrice);
