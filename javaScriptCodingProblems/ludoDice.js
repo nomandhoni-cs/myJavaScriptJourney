@@ -6,7 +6,7 @@ function ludoDice(n){
 }
 var result = ludoDice(6);
 console.log(result);
-console.log("Checking")
+console.log("Checking the Old Version is w2orking or not");
 
 
 
