@@ -1,6 +1,12 @@
-var noman = 150;
+var noman = 950;
 var sabbir = 650;
 var mridul = 550;
+
+//This is the Another way of calculating maximum value
+var max = Math.max(noman, sabbir, mridul);
+console.log(max);
+//End
+//Compare value and find maximum value by if else condition
 if(noman> sabbir){
     if (noman > mridul){
         console.log("noman is Bigger");
