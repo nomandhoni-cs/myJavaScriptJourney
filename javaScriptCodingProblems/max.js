@@ -3,6 +3,7 @@ var sabbir = 650;
 var mridul = 550;
 
 //This is the Another way of calculating maximum value
+//You can use Math.max(variable1, variable2, variablen) to compare value.
 var max = Math.max(noman, sabbir, mridul);
 console.log(max);
 //End
