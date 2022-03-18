@@ -1,4 +1,4 @@
-var idNumber = [1, 3, 4, 2, 99, 5, 3, 7, 3, 2];
+var idNumber = [1, 3, 4, 2, 99, 3, 5, 7, 3, 2];
 var uniqueId = [];
 for(let i = 0; i < idNumber.length; i++){
     var element = idNumber[i];
@@ -9,5 +9,8 @@ for(let i = 0; i < idNumber.length; i++){
         //.push to add element into array
         uniqueId.push(element);
     }
+    // else{
+    //     uniqueId.pop(index);
+    // }
 }
 console.log(uniqueId);
