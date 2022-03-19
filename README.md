@@ -25,7 +25,14 @@ In this repository I will share the JavaScript code from my Beginning
 ## Apply JavaScript Concepts
 ### Topics:
 - Prime Numbers
-- Factorial
+- Factorial (Regular, While-Loop, Minus for loop, Minus While Loop, Recursive)
+- Use of "const" and "let"
+- Even number Genarator
+- Fibonacci (Regular, Recursive, Full series Recursive, While-Loop)
+- Inch to Feet
+- Leap Year
+- Odd Number Series
+- Sum of Series
 ## JavaScript Coding Problems
 ### Topics:
 - Maximum value from an Array
