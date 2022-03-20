@@ -1,15 +1,17 @@
 //Questions are in the Documentation
 //Convert feet into Mile
+//1 mile = 5279.98 feet = 5280 feet
 function feetToMile(feet) {
     if(feet >= 0){
     var mile = feet / 5279.989441;
+    //Used .toFixed(4) take 4 decimal number.
     return mile.toFixed(4);
     }
     else{
-        return "Keep it Real!"
+        return "Keep it Real!, Otherwise it will be your Nightmare."
     }
 }
-console.log(feetToMile(20000));
+console.log(feetToMile(38300) + " Miles");
 
 //Calculate how much amount of wood do you need to make chair, table & Bed 
 function woodCalculator(chair, table, bed){
@@ -21,10 +23,10 @@ function woodCalculator(chair, table, bed){
     return woodNeedForChair +" for Chair " + woodNeedForTable +" for Table " + woodNeedForBed +" for Bed" + " (Unit in Cubic Feet)";
     }
     else{
-        return "You Gave Wrong Type of value in the Wood calculator";
+        return "You Gave Wrong Type of value in the Wood calculator but The good thing is that you can build whatever you want in parellel Universe.";
     }
 }
-console.log(woodCalculator(0,9,2));
+console.log(woodCalculator(29,9,2));
 
 //Brick Calculator 
 //Floor 1 -10 are 15 feet tall.
@@ -60,7 +62,7 @@ function brickCalculator(floorNumber) {
         }
     }
     else{
-        return "You can't see it, It is in the Parallel Universe."
+        return "You can't calculate the number of Bricks, It is in the Parallel Universe."
     }
 }
-console.log(brickCalculator(84));
+console.log(brickCalculator(84) + " Bricks");
