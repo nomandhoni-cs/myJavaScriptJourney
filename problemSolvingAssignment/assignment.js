@@ -1,3 +1,4 @@
+//Questions are in the Documentation
 //Convert feet into Mile
 function feetToMile(feet) {
     if(feet >= 0){
@@ -10,6 +11,7 @@ function feetToMile(feet) {
 }
 console.log(feetToMile(20000));
 
+//Calculate how much amount of wood do you need to make chair, table & Bed 
 function woodCalculator(chair, table, bed){
     if(chair >= 0 && table >= 0 && bed >= 0)
     {
@@ -23,3 +25,42 @@ function woodCalculator(chair, table, bed){
     }
 }
 console.log(woodCalculator(0,9,2));
+
+//Brick Calculator 
+//Floor 1 -10 are 15 feet tall.
+//Floor 11-20 are 12 feet tall.
+//Avobe of 20 all floors are 10 feet tall.
+//1000 bricks are needed to build 1 feet.
+function brickCalculator(floorNumber) {
+    //Firstly See if the Bulding Exist or Not
+    if(floorNumber >= 0){
+        //Declared 2 variable to calculate nubers of Bricks needed and See How much tall the building is in feet
+        var bricks;
+        var feetTallBulding;
+        //See The building is taller than 20 or not. If taller than that It will exicute below if condition
+        if (floorNumber >= 21) {
+            //Calculate how much floor is avobe 20th floor
+            var floorInThirdSegment = floorNumber - 20;
+            feetTallBulding =(10*15) + (10*12) + (floorInThirdSegment*10);
+            bricks = feetTallBulding * 1000;
+            return bricks;
+        }
+        // See the building is taller 11 floor and smaller than 21 floor.
+        else if(floorNumber >= 11 && floorNumber <= 20){
+            var floorInSecondSegment = floorNumber - 10;
+            feetTallBulding = (10*15) + (floorInSecondSegment*12);
+            bricks = feetTallBulding * 1000;
+            return bricks;
+        }
+        //If avobe all condition fail that means the Building is smaller than 11 floor. 
+        else{
+            feetTallBulding =(floorNumber*15);
+            bricks = feetTallBulding * 1000;
+            return bricks;
+        }
+    }
+    else{
+        return "You can't see it, It is in the Parallel Universe."
+    }
+}
+console.log(brickCalculator(84));
