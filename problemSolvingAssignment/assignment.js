@@ -68,15 +68,17 @@ function brickCalculator(floorNumber) {
 console.log(brickCalculator(84) + " Bricks");
 
 // //Tiny Friend (See who's name is smaller from an Array.)
+//This was Nightmare for me saw result from StackOverflow
 function tinyFriend(friendsName) {
     let shortestName = friendsName[0];
     for (let i = 0; i < friendsName.length; i++) {
+        //It will see which string length is Big
         if(friendsName[i].length < shortestName.length){
             shortestName = friendsName[i];
         }
     }
     return shortestName;
 }
-var friendsName = ["Noman", "abxc", "Sabbir", "Dipu", "aaaa", "aaa", "Mridul"];
+var friendsName = ["Noman", "abxc", "Sabbir", "Dipu","Mridul"];
 var result = tinyFriend(friendsName);
 console.log(result);
