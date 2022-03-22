@@ -82,3 +82,5 @@ function tinyFriend(friendsName) {
 var friendsName = ["Noman", "abxc", "Sabbir", "Dipu","Mridul"];
 var result = tinyFriend(friendsName);
 console.log(result);
+
+//giving attendence
