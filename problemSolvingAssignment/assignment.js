@@ -84,3 +84,4 @@ var result = tinyFriend(friendsName);
 console.log(result);
 
 //giving attendence
+//giving attendence
