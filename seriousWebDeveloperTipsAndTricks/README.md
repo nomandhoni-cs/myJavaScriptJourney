@@ -25,4 +25,17 @@
     ```
 - span#userName => <br>```<span id="userName">...</span>```
 - Google Emmet Cheat Sheet
-## Extentions
+## Extensions
+- Live Server
+- Code Spell Checker
+- JavaScript ES6 Code Snippets
+- ES Lint
+- Prettier
+## Learn Using Shortcuts
+- CTRL + SHIFT + P to Open Command Prompt
+- ALT + SHIFT + => (Arrow key to select whole word)
+- Learn VS Code Keyboard Shortcuts
+## Improve Typing Speed
+- Typing.com is a Great Resource for Learn Typing
+- Typing Master Desktop APP
+- Test Typing Speed from Various Website
