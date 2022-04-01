@@ -4,7 +4,8 @@
 - JavaScript Weekly, HTML Weekly, CSS Weekly
 ## Snippets
 - ! => to bring Basic HTML5 Snippet
-- div.row => <div class ="row">
+- div.row =><br> `<div class ="row">
+</div>`
 - .row*3>h1+p+btn => 
     ```
     <div class ="row">
