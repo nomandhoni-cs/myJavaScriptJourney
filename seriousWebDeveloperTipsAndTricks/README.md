@@ -32,8 +32,8 @@
 - ES Lint
 - Prettier
 ## Learn Using Shortcuts
-- CTRL + SHIFT + P to Open Command Prompt
-- ALT + SHIFT + => (Arrow key to select whole word)
+- <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to Open Command Prompt
+- <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>=></kbd> (Arrow key to select whole word)
 - Learn VS Code Keyboard Shortcuts
 ## Improve Typing Speed
 - Typing.com is a Great Resource for Learn Typing

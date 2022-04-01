@@ -88,7 +88,7 @@ In this repository I will share the JavaScript code from my Beginning
 - Prettier
 #### Learn Using Shortcuts
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to Open Command Prompt
-- <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + => (Arrow key to select whole word)
+- <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>=></kbd> (Arrow key to select whole word)
 - Learn VS Code Keyboard Shortcuts
 #### Improve Typing Speed
 - Typing.com is a Great Resource for Learn Typing
