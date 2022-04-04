@@ -1,3 +1,8 @@
+<!-- Lessons from this Module-->
+<!-- .appendChild(element) => to insert a child into a parent  -->
+<!-- .getElementById/Class/Tag name => to select an element -->
+<!-- .createElement => to create an element -->
+<!-- .innerHTML => insert HTML inside of an element -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +26,7 @@
     <main>
       <section id="section1">
         <h3>HEllo World</h3>
-        <article>
+        <article id="firstArticle">
           <h3>article-1</h3>
           <p class="author">author-1</p>
           <p class="description">
@@ -52,21 +57,41 @@
             illo repellendus.
           </p>
         </article>
+        <article>
+          <h3>
+            Grocery list
+            <ul id="groceryList">
+              <li>Product - 1</li>
+              <li>Product - 2</li>
+              <li>Product - 3</li>
+              <li>Product - 4</li>
+              <li>Product - 5</li>
+            </ul>
+          </h3>
+        </article>
       </section>
     </main>
     <script>
-      var authors = document.getElementsByClassName("author");
-      for (let i = 0; i < authors.length; i++) {
-        const element = authors[i];
-        element.innerHTML = "LEKHOK - " + (i + 1);
-        element.style.backgroundColor = "black";
-        element.style.width = "8%";
-        element.style.color = "white";
-        console.log(element.innerHTML);
-      }
-      var paragraph = document.querySelectorAll(".special .description");
-      paragraph.style.backgroundColor = "black";
-      document.getElementsByTagName("body").style.height = "900px";
+      const article = document.getElementById("firstArticle");
+      const newParagraph = document.createElement("p");
+      newParagraph.innerHTML = "This paragraph is Added by JavaScript";
+      article.appendChild(newParagraph);
+      const newButton = document.createElement("button");
+      newButton.innerHTML = "Click ME";
+      article.appendChild(newButton);
+      newButton.style.marginLeft = "30px";
+      newButton.style.backgroundColor = "green";
+      newButton.style.border = "2px green solid";
+      newButton.style.borderRadius = "30px";
+      newButton.style.color = "white";
+      newButton.style.padding = "20px";
+
+      //Add another item to grocery list
+      const newGrocery = document.createElement("li");
+      newGrocery.innerHTML = "Product - 6";
+      const groceryList = document.getElementById("groceryList");
+      console.log(groceryList);
+      groceryList.appendChild(newGrocery);
     </script>
   </body>
 </html>
