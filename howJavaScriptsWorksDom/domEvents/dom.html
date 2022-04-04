@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - DOM</title>
+    <style>
+        article{
+            border: 2px purple solid;
+            border-radius: 30px;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section id="section1">
+        <h3>HEllo World</h3>
+        <article>
+          <h3>article-1</h3>
+          <p class="author">author-1</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            debitis possimus quisquam commodi placeat magni quasi pariatur!
+            Commodi, temporibus beatae cumque, et cum, provident nemo atque
+            corporis delectus porro omnis?
+          </p>
+        </article>
+        <article>
+          <h3>article-2</h3>
+          <p class="author">author-2</p>
+          <p class="description">
+            Fugiat aspernatur, eum quisquam, aliquid dignissimos quod est
+            officiis nihil inventore aperiam placeat ducimus asperiores
+            exercitationem dolorum! Adipisci quidem et reprehenderit inventore
+            itaque, reiciendis est accusamus, sapiente voluptatibus, deleniti
+            atque!
+          </p>
+        </article>
+        <article>
+          <h3>article-3</h3>
+          <p class="author">author-3</p>
+          <p class="description">
+            Harum, ipsa. Placeat ut exercitationem fugiat illo ipsa, repellat
+            repellendus quasi non. Commodi, facilis impedit doloremque dicta
+            modi voluptatum ullam ipsa! Ipsa nihil eum similique rerum maxime in
+            illo repellendus.
+          </p>
+        </article>
+      </section>
+    </main>
+    <script>
+var authors = document.getElementsByClassName('author');
+for (let i = 0; i < authors.length; i++) {
+    const element = authors[i];
+    element.innerHTML = 'LEKHOK - ' + (i+1);
+    element.style.backgroundColor = 'black';
+    element.style.width = '8%';
+    element.style.color = 'white'
+    console.log(element.innerHTML);
+}
+    </script>
+  </body>
+</html>

@@ -12,7 +12,7 @@ In this repository I will share the JavaScript code from my Beginning
 **[JavaScript Coding Problems](#javascript-coding-problems)**<br>
 **[Problem Solving Assignment](#problem-solving-assignment)**<br>
 **[Serious Web Developer Tips And Tricks](#serious-web-developer-tips-and-tricks)**<br>
-**[JavaScript Time Clock](#javascript-time-clock)**<br>
+**[How JavaScripts Works DOM](#how-javascripts-works-dom)**<br>
 
 ## Introduction to JavaScript
 
@@ -121,3 +121,9 @@ In this repository I will share the JavaScript code from my Beginning
 - Typing.com is a Great Resource for Learn Typing
 - Typing Master Desktop APP
 - Test Typing Speed from Various Website
+
+## How JavaScripts Works DOM
+
+### Interview Questions
+- Definition of Java Script
+- Sequence of Script file
