@@ -127,3 +127,7 @@ In this repository I will share the JavaScript code from my Beginning
 ### Interview Questions
 - Definition of Java Script
 - Sequence of Script file
+- .appendChild(element) => to insert a child into a parent  
+- .getElementById/Class/Tag name => to select an element 
+- .createElement => to create an element 
+- .innerHTML => insert HTML inside of an element 
