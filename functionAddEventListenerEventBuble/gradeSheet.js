@@ -13,6 +13,7 @@ function grade(studentId, marks) {
   }
   if (marks >= 40 && marks <= 49) {
     return "Student " + studentId + " got C";
+    
   }
   if (marks >= 33 && marks <= 39) {
     return "Student " + studentId + " got D";
@@ -26,3 +27,12 @@ function grade(studentId, marks) {
 }
 var result = grade(12, 50);
 console.log(result);
+
+// function marksOfStudent(studentId, marks){
+//     var gradeList = ['F', 'D', 'C', 'B', 'A-', 'A', 'A+'];
+//     if (marks/20 >= 4 && marks/20 <= 5) {
+//         return 'Student ' + studentId + ' got ' + gradeList[6];
+//     }
+// }
+// var result = marksOfStudent(3,100);
+// console.log(result);
