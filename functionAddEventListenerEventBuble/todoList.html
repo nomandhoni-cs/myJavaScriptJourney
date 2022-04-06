@@ -26,9 +26,22 @@
           <li class="todoItem">Incidunt, quia quam.</li>
           <li class="todoItem">Vero, praesentium id.</li>
         </ul>
+        <button id="addTaskBtn">Add Task</button>
       </h3>
     </div>
     <script>
+      // Add new task start
+      document
+        .getElementById("addTaskBtn")
+        .addEventListener("click", function (event) {
+          var listParent = document.getElementById("todoList");
+          var newTask = document.createElement("li");
+          newTask.innerText = "New Task";
+          listParent.appendChild(newTask);
+        });
+      // Add new task end
+
+      //Click to delete item start
       var todoItems = document.getElementsByClassName("todoItem");
       //Access all list items by this loop. We are calling the parent id that's why this is like a node/array
       for (let i = 0; i < todoItems.length; i++) {
@@ -43,6 +56,7 @@
           //in above line event.target is used for accessing the node
         });
       }
+      // Click to delete item end 
     </script>
   </body>
 </html>
