@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <style>
+      #container {
+        width: 1140px;
+        margin-left: 7%;
+      }
+      body {
+        background-color: mediumpurple;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h3>
+        To-Do List
+        <ul id="todoList">
+          <li class="todoItem">Lorem, ipsum dolor.</li>
+          <li class="todoItem">Neque, et aperiam!</li>
+          <li class="todoItem">Sequi, error dignissimos.</li>
+          <li class="todoItem">Incidunt, quia quam.</li>
+          <li class="todoItem">Vero, praesentium id.</li>
+        </ul>
+      </h3>
+    </div>
+    <script>
+      var todoItems = document.getElementsByClassName("todoItem");
+      //Access all list items by this loop. We are calling the parent id that's why this is like a node/array
+      for (let i = 0; i < todoItems.length; i++) {
+        var item = todoItems[i];
+        //below i used this to access which items i'm currently in
+        // console.log(this);
+        item.addEventListener("click", function (event) {
+          // here I used .removeChild() to remove a child from parent node
+          event.target.parentNode.removeChild(event.target);
+
+          //   console.log(event.target.parentNode);
+          //in above line event.target is used for accessing the node
+        });
+      }
+    </script>
+  </body>
+</html>
