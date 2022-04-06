@@ -31,6 +31,7 @@
     </div>
     <script>
       // Add new task start
+
       document
         .getElementById("addTaskBtn")
         .addEventListener("click", function (event) {
@@ -42,21 +43,37 @@
       // Add new task end
 
       //Click to delete item start
-      var todoItems = document.getElementsByClassName("todoItem");
-      //Access all list items by this loop. We are calling the parent id that's why this is like a node/array
-      for (let i = 0; i < todoItems.length; i++) {
-        var item = todoItems[i];
-        //below i used this to access which items i'm currently in
-        // console.log(this);
-        item.addEventListener("click", function (event) {
-          // here I used .removeChild() to remove a child from parent node
-          event.target.parentNode.removeChild(event.target);
 
-          //   console.log(event.target.parentNode);
-          //in above line event.target is used for accessing the node
+      //Commented this code because there is one bug here
+      //Bug : you can't remove new added task
+
+      // var todoItems = document.getElementsByTagName("li");
+      // //Access all list items by this loop. We are calling the parent id that's why this is like a node/array
+      // for (let i = 0; i < todoItems.length; i++) {
+      //   var item = todoItems[i];
+      //   //below i used this to access which items i'm currently in
+      //   // console.log(this);
+      //   item.addEventListener("click", function (event) {
+      //     // here I used .removeChild() to remove a child from parent node
+      //     event.target.parentNode.removeChild(event.target);
+
+      //     //   console.log(event.target.parentNode);
+      //     //in above line event.target is used for accessing the node
+      //   });
+      // }
+      // Click to delete item end
+
+      //Debugged new task remove
+       // Click to delete item start v.2
+      //I'm going to call the parent to remove his child
+      document
+        .getElementById("todoList")
+        .addEventListener("click", function (event) {
+          //Call the child's parent and tell tp remove the target(child)
+          event.target.parentNode.removeChild(event.target);
+          // console.log(this, event.target);
         });
-      }
-      // Click to delete item end 
+         // Click to delete item end v.2
     </script>
   </body>
 </html>
