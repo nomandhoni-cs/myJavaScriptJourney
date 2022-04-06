@@ -1,0 +1,48 @@
+<!-- Lessons from this class : Learned how bubble event handler work -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUBBLE LIST</title>
+  </head>
+  <body>
+    <div id="container">
+      <h3>
+        My List
+        <ul id="list">
+          <li id="firstItem" class="listItems">Lorem ipsum dolor sit.</li>
+          <li id="secondItem" class="listItems">
+            Labore nostrum facilis voluptate.
+          </li>
+          <li class="listItems">Omnis dolor facilis repellendus.</li>
+          <li class="listItems">Soluta sapiente velit dignissimos.</li>
+          <li class="listItems">Quia nostrum unde earum.</li>
+        </ul>
+      </h3>
+    </div>
+    <script>
+        // you can add style by .addEventListener
+      document
+        .getElementById("firstItem")
+        .addEventListener("click", function (events) {
+          var container = document.getElementById("container");
+          container.style.width = "1140px";
+          container.style.backgroundColor = "#bbbbbb";
+          container.style.marginLeft = "7%";
+
+          //injected new child button
+          const newButton = document.createElement("button");
+          newButton.innerHTML = "Click Here";
+          const container1 = document.getElementById("firstItem");
+          container1.appendChild(newButton);
+        });
+      document
+        .getElementById("secondItem")
+        .addEventListener("click", function (eventTwo) {
+          document.body.style.backgroundColor = "gray";
+        });
+    </script>
+  </body>
+</html>
