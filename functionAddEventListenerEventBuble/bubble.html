@@ -16,14 +16,14 @@
           <li id="secondItem" class="listItems">
             Labore nostrum facilis voluptate.
           </li>
-          <li class="listItems">Omnis dolor facilis repellendus.</li>
+          <li id="thirdItem" class="listItems">Omnis dolor facilis repellendus.</li>
           <li class="listItems">Soluta sapiente velit dignissimos.</li>
           <li class="listItems">Quia nostrum unde earum.</li>
         </ul>
       </h3>
     </div>
     <script>
-        // you can add style by .addEventListener
+      // you can add style by .addEventListener
       document
         .getElementById("firstItem")
         .addEventListener("click", function (events) {
@@ -42,6 +42,15 @@
         .getElementById("secondItem")
         .addEventListener("click", function (eventTwo) {
           document.body.style.backgroundColor = "gray";
+        });
+      document
+        .getElementById("ThirdItem")
+        .addEventListener("click", function (eventTwo) {
+          document.body.style.backgroundColor = "black";
+          event.stopPropagation();
+
+          //Above .stoppropagation is used for stop the bubble i will stop the bubble in this phase
+          //You can stop bubble is this two way.
         });
     </script>
   </body>
