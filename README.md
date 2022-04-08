@@ -138,3 +138,9 @@ In this repository I will share the JavaScript code from my Beginning
 ### Project : [Noman Dhoni Bank](https://nomandhoni-cs.github.io/NomanDhoniBank)
 ##### Topics:
 - parseFloat() to make a string into Float number
+
+### Lessons :
+- Firstly understand the work details from your client or higher authority
+- Breakdown a big problem into step by step
+- Commit and Pull the git after a step done
+- After solve the problem try to remove multiple line by using function
