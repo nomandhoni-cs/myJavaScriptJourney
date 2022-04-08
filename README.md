@@ -66,7 +66,7 @@ In this repository I will share the JavaScript code from my Beginning
 ### Questions:
 
 - Convert Feet into Mile
-- 1 cubic foot wood needed to make 1 Chair, 3 cubic foot wood needed to make 1 Table, 5 cubic foot wood needed to make 1 Bed. Now make a function to calculte from 3 inputs and return.
+- 1 cubic foot wood needed to make 1 Chair, 3 cubic foot wood needed to make 1 Table, 5 cubic foot wood needed to make 1 Bed. Now make a function to calculate from 3 inputs and return.
 - 1st to 10th floor of a building is 15 feet tall. 11th to 20th floor of a building is 12 feet tall. Above 20th floor all floor is 10 feet tall. 1000 Bricks needed to build 1 feet of Building. Now make a function to calculate amount of Bricks if only the Building floor is given.
 - List your friends name in an Array. Now make a function that will return from that Array, which name is smaller.
 
@@ -82,7 +82,7 @@ In this repository I will share the JavaScript code from my Beginning
 
 - ! => to bring Basic HTML5 Snippet
 - div.row =><br> `<div class ="row"> </div>`
-- .row\*3>h1+p+btn =>
+- .row*3>h1+p+btn =>
   ```
   <div class ="row">
       <h1></h1>
@@ -135,6 +135,6 @@ In this repository I will share the JavaScript code from my Beginning
 
 ## Noman Dhoni Bank Limited
 
-### Project : Noman Dhoni Bank
+### Project : [Noman Dhoni Bank](https://nomandhoni-cs.github.io/NomanDhoniBank)
 ##### Topics:
--
+- parseFloat() to make a string into Float number
