@@ -144,3 +144,5 @@ In this repository I will share the JavaScript code from my Beginning
 - Breakdown a big problem into step by step
 - Commit and Pull the git after a step done
 - After solve the problem try to remove multiple line by using function
+
+##### You can contribute to my bank website Noman Dhoni Bank Ltd.
