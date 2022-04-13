@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Increment Button Practice</title>
-</head>
-<body>
+    <style>
+      .container {
+        width: 1140px;
+        margin: 0 80px;
+      }
+      .btn {
+        background-color: rgb(62, 209, 62);
+        width: 100px;
+        padding: 5px;
+        box-shadow: 5px 5px 10px gray;
+        /* border: 2px solid rgb(62, 209, 62); */
+        border-radius: 20px;
+        margin: 0 30px;
+        color: white;
+        font-size: xx-large;
+      }
+      #value {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="decreaseButton" class="btn">-</button>
+      <span id="value">0</span>
+      <button id="increaseButton" class="btn">+</button>
+    </div>
     <script>
-        
+      // Used This function increase or decrease any value
+
+      //You can get this JS in my Gist
+      function increaseDecreaseHandler(valueYouWantToChange, incrementAmount) {
+        const value = document.getElementById(valueYouWantToChange).innerText;
+        const integerValue = parseInt(value);
+        const updatedValue = integerValue + incrementAmount;
+        document.getElementById(valueYouWantToChange).innerText = updatedValue;
+      }
+
+      // Above incrementAmount will be in number such as
+      // -1 = decrease 1
+      // And 1 = increase value by 1
+
+      //Increase Value Button Handler
+      const increaseButton = document.getElementById("increaseButton");
+      increaseButton.addEventListener("click", function () {
+        increaseDecreaseHandler("value", 1);
+      });
+
+      //Decrease Value Button Handler
+      const decreaseButton = document.getElementById("decreaseButton");
+      decreaseButton.addEventListener("click", function () {
+        increaseDecreaseHandler("value", -1);
+      });
     </script>
-</body>
+  </body>
 </html>
