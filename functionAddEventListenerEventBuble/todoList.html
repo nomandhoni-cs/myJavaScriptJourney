@@ -27,6 +27,7 @@
           <li class="todoItem">Vero, praesentium id.</li>
         </ul>
         <button id="addTaskBtn">Add Task</button>
+        <input type="text" name="" id="new-task-input" />
       </h3>
     </div>
     <script>
@@ -37,10 +38,28 @@
         .addEventListener("click", function (event) {
           var listParent = document.getElementById("todoList");
           var newTask = document.createElement("li");
-          newTask.innerText = "New Task";
-          listParent.appendChild(newTask);
+          const newTaskInput = document.getElementById("new-task-input").value;
+          if (newTaskInput == "") {
+            alert('Add something in your list')
+          } else {
+            newTask.innerText = newTaskInput;
+            listParent.appendChild(newTask);
+          }
+          document.getElementById("new-task-input").value = "";
         });
       // Add new task end
+
+      //Debugged new task remove
+      // Click to delete item start v.2
+      //I'm going to call the parent to remove his child
+      document
+        .getElementById("todoList")
+        .addEventListener("click", function (event) {
+          //Call the child's parent and tell tp remove the target(child)
+          event.target.parentNode.removeChild(event.target);
+          // console.log(this, event.target);
+        });
+      // Click to delete item end v.2
 
       //Click to delete item start
 
@@ -62,18 +81,6 @@
       //   });
       // }
       // Click to delete item end
-
-      //Debugged new task remove
-       // Click to delete item start v.2
-      //I'm going to call the parent to remove his child
-      document
-        .getElementById("todoList")
-        .addEventListener("click", function (event) {
-          //Call the child's parent and tell tp remove the target(child)
-          event.target.parentNode.removeChild(event.target);
-          // console.log(this, event.target);
-        });
-         // Click to delete item end v.2
     </script>
   </body>
 </html>
