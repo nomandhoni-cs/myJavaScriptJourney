@@ -13,3 +13,17 @@ function addNumbers(numberOne, numberTwo) {
 }
 var result = addNumbers(1, 3, 5, 9);
 console.log(result);
+
+function addName(firstName, lastName) {
+  let fullName = "";
+  for (let i = 0; i < arguments.length; i++) {
+    const namePart = arguments[i];
+    fullName = fullName + " " + namePart;
+  }
+  return fullName;
+}
+
+var result = addName("Abdullah", "Al", "Noman", "Dhoni");
+console.log(result);
+
+console.log(addName('Sabbir','Ahmed','Shuvo'));
