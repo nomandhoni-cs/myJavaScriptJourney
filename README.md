@@ -9,6 +9,7 @@ In this repository I will share the JavaScript code from my Beginning
 **[Introduction to JavaScript](#introduction-to-javascript)**<br>
 **[JavaScript Fundamentals](#javascript-fundamentals)**<br>
 **[Apply JavaScript Concepts](#apply-javascript-concepts)**<br>
+**[JavaScript topics learned from LWS](#javascript-topics-learned-from-lws)**<br>
 **[JavaScript Coding Problems](#javascript-coding-problems)**<br>
 **[Problem Solving Assignment](#problem-solving-assignment)**<br>
 **[Serious Web Developer Tips And Tricks](#serious-web-developer-tips-and-tricks)**<br>
@@ -48,6 +49,10 @@ In this repository I will share the JavaScript code from my Beginning
 - Odd Number Series
 - Sum of Series
 
+## JavaScript topics learned from LWS
+### Topics :
+- ```setInterval(functionName, 5)``` to run a function after a specific time. Here after 5 mill sec  
+- ```stopInterval(variableNameAssignedAsInterval)``` to stop the interval. Otherwise the Interval will run forever.
 ## JavaScript Coding Problems
 
 ### Topics:
