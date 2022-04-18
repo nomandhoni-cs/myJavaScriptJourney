@@ -13,7 +13,7 @@ In this repository I will share the JavaScript code from my Beginning
 **[Problem Solving Assignment](#problem-solving-assignment)**<br>
 **[Serious Web Developer Tips And Tricks](#serious-web-developer-tips-and-tricks)**<br>
 **[How JavaScripts Works DOM](#how-javascripts-works-dom)**<br>
-**[Function, .addEventListener, Event Bubble](#function,-.addeventlistener,-event-bubble)**<br>
+**[Function addEventListener Event Bubble](#function-addeventlistener-event-bubble)**<br>
 **[Noman Dhoni Bank Limited](#noman-dhoni-bank-limited)**<br>
 
 ## Introduction to JavaScript
@@ -134,7 +134,7 @@ In this repository I will share the JavaScript code from my Beginning
 - ```.createElement``` => to create an element 
 - ```.innerHTML``` => insert HTML inside of an element 
 
-## Function, .addEventListener, Event Bubble
+## Function addEventListener Event Bubble
 ### Topics :
 ##### Argument
 - Argument is an array like Object
@@ -142,7 +142,7 @@ In this repository I will share the JavaScript code from my Beginning
 ##### Function
 - There are four types of functions
 
-##### .addEventListener()
+##### ```.addEventListener()```
 
 ##### Event Bubble
 
