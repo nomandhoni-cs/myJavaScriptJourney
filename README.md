@@ -145,7 +145,7 @@ In this repository I will share the JavaScript code from my Beginning
 ##### ```.addEventListener()```
 
 ##### Event Bubble
-
+![Event Bubbling JavaScript](https://javascript.info/article/bubbling-and-capturing/eventflow.svg)
 ## Noman Dhoni Bank Limited
 
 ### Project : [Noman Dhoni Bank](https://nomandhoni-cs.github.io/NomanDhoniBank)
