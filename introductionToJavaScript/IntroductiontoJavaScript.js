@@ -11,7 +11,7 @@ console.log("The type of bananaPrice is " + typeof bananaPrice);
 //Here under " " to declare a variable that is a string
 var yourName = "Noman";
 //Here i used TypeScript to print out the variable yourName
-console.log(`Your name is${yourName}`);
+console.log(`Your name is ${yourName}`);
 var sayHello = "Hello";
 console.log(sayHello + " " + yourName);
 //Here I used typeof to check the type of the variable type

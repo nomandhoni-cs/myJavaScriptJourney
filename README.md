@@ -23,6 +23,9 @@ In this repository I will share the JavaScript code from my Beginning
 
 - Data Types **<br>
   <kbd>Line 1</kbd> to <kbd>Line 58</kbd>**<br>[IntroductionToJavaScript.js](https://github.com/nomandhoni-cs/myJavaScriptJourney/blob/master/introductionToJavaScript/IntroductiontoJavaScript.js)
+- String **<br>
+1. UPPER CASE: '''.toUpperCase()''' by this you can make a normal string to Upper Case. **<br>
+2. lower case: '''.toLowerCase()''' by this you can make a normal string to Lower Case.
 - Array
 - Boolean Variable
 - Number Variable
