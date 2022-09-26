@@ -26,11 +26,30 @@ In this repository I will share the JavaScript code from my Beginning
 - String <br>
 1. UPPER CASE: `.toUpperCase()` by this you can make a normal string to Upper Case. <br>
 2. lower case: `.toLowerCase()` by this you can make a normal string to Lower Case.
+3. Find the location of a word: `.indexOf()` by this you can find the index of string.
 - Array
 - Boolean Variable
 - Number Variable
 - Operators
+- Random Number
+```
+// to get a random integer numeber between 100
+var randomInteger = Math.random() * 100;
+var randomInteger = Math.round(randomInteger);
+console.log(randomInteger); //84 Some random number
+```
 - JavaScript Time Clock
+``` 
+// JavaScript Time- Clock
+var date = new Date();
+var hour = date.getHours();
+var minute = date.getMinutes();
+var sec = date.getSeconds();
+var ms = date.getMilliseconds();
+var day = date.getDay();
+console.log(date + " " + hour + ":" + minute + ":" + sec + ":" + ms + " " + day);
+//Mon Sep 26 2022 21:16:08 GMT+0600 (Bangladesh Standard Time) 21:16:8:98 1
+```
 
 ## JavaScript Fundamentals
 
