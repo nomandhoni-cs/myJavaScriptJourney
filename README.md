@@ -27,7 +27,6 @@ In this repository I will share the JavaScript code from my Beginning
 1. UPPER CASE: `.toUpperCase()` by this you can make a normal string to Upper Case. <br>
 2. lower case: `.toLowerCase()` by this you can make a normal string to Lower Case.
 3. Find the location of a word: `.indexOf()` by this you can find the index of string.
-- Array
 - Boolean Variable
 - Number Variable
 - Operators
@@ -56,7 +55,22 @@ console.log(date + " " + hour + ":" + minute + ":" + sec + ":" + ms + " " + day)
 ### Topics:
 
 - [javaScriptFundamentals.js](https://github.com/nomandhoni-cs/myJavaScriptJourney/blob/master/javaScriptFundamentals/jsfundamentals.js)
-
+- Array
+1. .indexOf("Items from Array")
+By this you can find what is the index of that element
+```
+var friendsName = ["Sabbir", "Noman", "Mridul", "Sakib", "Faysal"];
+//Find the index in an array
+var posiotion = friendsName.indexOf("Sakib");
+console.log(posiotion);// 3
+```
+2. .length
+By this you can find what is the length of an array.
+```
+friendsAge = [20, 21, 22, 23, 24];
+console.log(friendsAge.length);// 5
+```
+3. 
 ## Apply JavaScript Concepts
 
 ### Topics:
