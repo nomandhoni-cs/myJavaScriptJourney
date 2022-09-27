@@ -56,7 +56,7 @@ console.log(date + " " + hour + ":" + minute + ":" + sec + ":" + ms + " " + day)
 
 - [javaScriptFundamentals.js](https://github.com/nomandhoni-cs/myJavaScriptJourney/blob/master/javaScriptFundamentals/jsfundamentals.js)
 - Array
-1. .indexOf("Items from Array")
+1. `.indexOf("Items from Array")`
 By this you can find what is the index of that element
 ```
 var friendsName = ["Sabbir", "Noman", "Mridul", "Sakib", "Faysal"];
@@ -64,13 +64,31 @@ var friendsName = ["Sabbir", "Noman", "Mridul", "Sakib", "Faysal"];
 var posiotion = friendsName.indexOf("Sakib");
 console.log(posiotion);// 3
 ```
-2. .length
+2. `.length`
 By this you can find what is the length of an array.
 ```
 friendsAge = [20, 21, 22, 23, 24];
 console.log(friendsAge.length);// 5
 ```
-3. 
+3. `.pop(existingElement)` and `.push(newElement)' <br> 
+By these you can Insert a new Item to an array and Delete item from an array.
+```
+// .pop() will remove last element
+friendsAge.pop();
+console.log(friendsAge);// 20 21 22 23
+friendsAge.push(25);
+console.log(friendsAge);// 20 21 22 23 25
+```
+4. `.shift()` and `.unshift(newElement)` <br>
+By `.shift()` we can remove the first element from the array. <br>
+By `.unshift(newElement)` can insert elementt in the begining of an array.
+```
+friendsAge.shift();
+console.log(friendsAge); // 21 22 23 25
+friendsAge.unshift(30);
+console.log(friendsAge); // 30 21 22 23 25
+```
+
 ## Apply JavaScript Concepts
 
 ### Topics:
