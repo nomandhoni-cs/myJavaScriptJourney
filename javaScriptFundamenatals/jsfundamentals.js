@@ -72,7 +72,7 @@ switch (crushName){
 function sayLoveYou(){
     console.log("Will you be my valentine?")
 }
-sayLoveYou();
+
 for (var i =  0; i < 10; i++){
     console.log(sayLoveYou());
 }

@@ -3,9 +3,9 @@ function isPrime(n) {
     for(i = 2; i < n; i++){
         //   console.log(i, n % i);
         if(n % i == 0){
-            return "Your Number is not a Prime Number";
+            return "Your Number " + n + " is not a Prime Number";
         }
-    } return 'Your Number is Prime Number';
+    } return 'Your Number ' + n + ' is Prime Number';
 }
 var result = isPrime(13);
 console.log(result);
