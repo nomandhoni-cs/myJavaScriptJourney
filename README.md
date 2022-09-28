@@ -16,6 +16,7 @@ In this repository I will share the JavaScript code from my Beginning
 **[How JavaScripts Works DOM](#how-javascripts-works-dom)**<br>
 **[Function addEventListener Event Bubble](#function-addeventlistener-event-bubble)**<br>
 **[Noman Dhoni Bank Limited](#noman-dhoni-bank-limited)**<br>
+**[Modern JavaScript](#modern-javascript)**<br>
 
 ## Introduction to JavaScript
 
@@ -70,7 +71,7 @@ By this you can find what is the length of an array.
 friendsAge = [20, 21, 22, 23, 24];
 console.log(friendsAge.length);// 5
 ```
-3. `.pop(existingElement)` and `.push(newElement)' <br> 
+3. `.pop(existingElement)` and `.push(newElement)` <br> 
 By these you can Insert a new Item to an array and Delete item from an array.
 ```
 // .pop() will remove last element
@@ -81,7 +82,7 @@ console.log(friendsAge);// 20 21 22 23 25
 ```
 4. `.shift()` and `.unshift(newElement)` <br>
 By `.shift()` we can remove the first element from the array. <br>
-By `.unshift(newElement)` can insert elementt in the begining of an array.
+By `.unshift(newElement)` can insert element in the begining of an array.
 ```
 friendsAge.shift();
 console.log(friendsAge); // 21 22 23 25
@@ -219,3 +220,38 @@ console.log(friendsAge); // 30 21 22 23 25
 - After solve the problem try to remove multiple line by using function
 
 ##### You can contribute to my bank website Noman Dhoni Bank Ltd.
+
+## Modern JavaScript
+
+### Topics :
+
+#####  Default function
+- You can assign some default parameter
+```
+function add(inputOne, inputTwo = 10) {
+  let sum = inputOne + inputTwo;
+  return sum;
+}
+let output = add(15); // 25
+console.log(output);
+```
+##### Template
+- You also use any type of one line function inside of `${}` like `${2+3}`.
+```
+const firstName = "Noman";
+const lastName = "Dhoni";
+const fullName = firstName + " " + lastName;
+console.log(fullName); // Noman Dhoni
+const fullName2 = `${firstName} ${lastName} is a Developer.`;
+console.log(fullName2); // Noman Dhoni is a Developer.
+
+const multiLine = "I am\n" + "Noman";
+console.log(multiLine);
+// I am
+// Noman
+const multiLine2 = `I am 
+Noman`;
+console.log(multiLine2);
+// I am
+// Noman
+``` 
