@@ -255,3 +255,48 @@ console.log(multiLine2);
 // I am
 // Noman
 ``` 
+##### Arrow Function
+- One Parameter: You can set parameter withour `()`.
+```
+const add = num => num + 2;
+console.log(add(2)); // 4
+```
+- No Parameter: You have to use `()` must.
+```
+const number = () => 5;
+console.log(number()); // 5
+```
+- Multiple Parameter: You can set them like this `(x, y)`
+```
+const multiple = (x, y) => x * y;
+console.log(multiple(2, 3)); // 6
+```
+- Multiple Operation: You have to use `{}` and `return`.
+```
+const bigFunc = (x, y) => {
+    x = x + 2
+    y = y + 2
+    const sum = x + y;
+    return sum;
+}
+console.log(bigFunc(2, 3)); // 9
+```
+##### Three Dots (Spread Operator)
+- `.concut()` Use it to combine array elements
+```
+const friendsAge = [20 , 23, 24, 21];
+const cousinAge = [31, 42, 34, 12];
+const parentsAge = [54, 53, 52, 64];
+const combinedAge = friendsAge.concat(cousinAge).concat(parentsAge);
+console.log(combinedAge); // [20, 23, 24, 21, 31, 42, 34, 12, 54, 53, 52, 64 ]
+```
+- `...` by this you can also do the same thing as avobe.
+```
+const combinedAge2 = [...friendsAge, ...cousinAge, ...parentsAge];
+console.log(combinedAge2);// [20, 23, 24, 21, 31, 42, 34, 12, 54, 53, 52, 64 ]
+```
+- Maximum 
+```
+const maximum = Math.max(...friendsAge, ...cousinAge, ...parentsAge);
+console.log(maximum); // 64
+```
